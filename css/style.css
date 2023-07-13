@@ -6,12 +6,38 @@
 
 body{
   font-family: 'Fredoka', sans-serif;
+ 
 }
+
+.container{
+  width: 70%;
+  max-width: 1200px;
+  margin: 40px auto;
+  
+}
+
+/* HEADER */
 
 header{
   text-align: center;
   padding: 20px;
-  font-size: 30px;
+  font-size: 35px;
   color: #e53170;
   font-weight: 200;
+}
+
+/* MAIN */
+
+main>p{
+  text-align: center;
+  font-weight: 100;
+  padding-top: 30px;
+}
+
+.col{
+  float: left;
+  width: calc(100% /3);
+  text-align: center;
+  padding: 20px;
+  
 }
